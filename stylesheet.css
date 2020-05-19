@@ -23,25 +23,33 @@
 }
 button{
   height: 80px;
-  background-color: gray;
-  border: 1px solid black;
+  background-color: white;
+  border: 1px solid #d7f3f5;
   font-size: 32px;
-  color: #fff;
+  color: black;
   width: 25%;
   outline: none;
 }
+
 .all-clear, .zero-btn{
   width: 50%;
 }
-.operator, .equal-sign{
-  background-color: orange;
+.operator{
+  background-color: white;
 }
-button:hover{
+.all-clear, .percentage, .operator{
+    color:blue;
+}
+.equal-sign{
+  background-color: blue;
+  color:white;
+}
+button:hover, .operator:hover{
   background-color: darkgrey;
 }
-.operator:hover, .equal-sign:hover{
-  background-color: darkorange;
+.equal-sign:hover{
+  background-color: darkblue;
 }
 .operator:active, button:active, .equal-sign:active{
-  background-color: white;
+  background-color: gray;
 }
